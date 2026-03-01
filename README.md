@@ -1,4 +1,4 @@
-# WebFetch to Markdown (pi extension)
+# pi-webfetch
 
 A [pi](https://github.com/mariohack/pi) extension that fetches web content and returns it as Markdown, optimized for AI consumption.
 
@@ -36,7 +36,7 @@ When a server doesn't support content negotiation, the extension falls back to [
 ## Installation
 
 ```bash
-npm install pi-webfetch-to-markdown
+npm install pi-webfetch
 ```
 
 ## Usage
