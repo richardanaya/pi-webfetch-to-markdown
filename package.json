@@ -1,16 +1,33 @@
 {
   "name": "pi-webfetch",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Fetch web content as clean Markdown for AI consumption. Supports Cloudflare's Markdown for Agents content negotiation with Turndown fallback.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/richardanaya/pi-webfetch.git"
   },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "web-fetch",
+    "markdown",
+    "content-negotiation",
+    "turndown",
+    "ai",
+    "agent"
+  ],
   "license": "MIT",
   "author": "Richard Anaya",
   "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*"
   },
   "dependencies": {
     "turndown": "^7.2.2"
