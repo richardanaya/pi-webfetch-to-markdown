@@ -2,6 +2,10 @@
   "name": "pi-webfetch",
   "version": "0.0.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardanaya/pi-webfetch.git"
+  },
   "license": "MIT",
   "author": "Richard Anaya",
   "main": "index.ts",

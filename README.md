@@ -44,12 +44,12 @@ pi install npm:pi-webfetch
 Or install directly from GitHub:
 
 ```bash
-pi install git:github.com/richardanaya/pi-webfetch-to-markdown
+pi install git:github.com/richardanaya/pi-webfetch
 ```
 
 Pin to a specific version with `@version` (e.g., `pi install npm:pi-webfetch@1.0.0`).
 
-Test without installing using `pi -e git:github.com/richardanaya/pi-webfetch-to-markdown`.
+Test without installing using `pi -e git:github.com/richardanaya/pi-webfetch`.
 
 ## Usage
 
